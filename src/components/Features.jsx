@@ -25,7 +25,7 @@ const Features = () => {
       { scale: 1, opacity: 1, ease: "power1" },
       { scrub: 5.5 }
     );
-    animateWithGsap(".g_text", { y: 0, opacity: 1 });
+    // animateWithGsap(".g_text", { y: 0, opacity: 1 });
   }, []);
 
   return (
@@ -80,7 +80,7 @@ const Features = () => {
 
               <div className="feature-text-container">
                 <div className="flex-1 flex-center">
-                  <p className="feature-text g_text">
+                  <p className="feature-text ">
                     iPhone 15 Pro is{" "}
                     <span className="text-white">
                       the first iPhone to feature an aerospace-grade titanium
@@ -92,7 +92,7 @@ const Features = () => {
                 </div>
 
                 <div className="flex-1 flex-center">
-                  <p className="feature-text g_text">
+                  <p className="feature-text ">
                     Titanium has one of the best strength-to-weight ratios of
                     any metal, making these our{" "}
                     <span className="text-white">
