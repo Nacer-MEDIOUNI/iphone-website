@@ -15,7 +15,7 @@ const App = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false); // After 1500ms, set loading to false
-    }, 2000);
+    }, 2500);
 
     // Cleanup timeout if the component is unmounted before it completes
     return () => clearTimeout(timer);
@@ -32,7 +32,7 @@ const App = () => {
           </div>
         </div>
       ) : (
-        <main className="bg-black">
+        <main className="bg-black overflow-auto">
           <Navbar />
           <Hero />
           <Highlights />

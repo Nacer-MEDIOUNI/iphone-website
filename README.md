@@ -64,8 +64,9 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone
-cd iphone-doc
+git clone https://github.com/Nacer-MEDIOUNI/iphone-website.git
+cd iphone-website
+
 ```
 
 **Installation**
