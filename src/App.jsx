@@ -32,7 +32,7 @@ const App = () => {
           </div>
         </div>
       ) : (
-        <main className="bg-black overflow-auto">
+        <main className="bg-black overflow-visible">
           <Navbar />
           <Hero />
           <Highlights />
