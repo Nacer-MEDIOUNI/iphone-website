@@ -8,6 +8,7 @@ import Features from "./components/Features";
 import HowItWorks from "./components/HowItWorks";
 import Footer from "./components/Footer";
 import { logonacerImg } from "./utils";
+import { Analytics } from "@vercel/analytics/react";
 
 const App = () => {
   const [loading, setLoading] = useState(true); // Start with loading as true
@@ -33,6 +34,7 @@ const App = () => {
         </div>
       ) : (
         <main className="bg-black !overflow-hidden">
+          <Analytics />
           <Navbar />
           <Hero />
           <Highlights />
